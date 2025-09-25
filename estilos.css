@@ -1,0 +1,150 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root{
+  --colorfusha: #A90337
+}
+:root{
+  --colorgris:#eceeed
+}
+:root{
+  --colorgrisfuerte: #303030
+}
+:root{
+  --tipografiadelgada: font-family: "Montserrat", sans-serif;
+}
+:root{
+  --tipografiagruesa: font-family: "Oswald", sans-serif;
+}
+body{
+  font-family: var(--tipografiadelgada);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+h1{
+padding: 10px;
+}
+.btn_login{
+  padding: 10px 30px;
+  background-color: var(--colorgrisfuerte);
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 40px;
+}
+.ancho {
+  max-width: 1200px;
+  margin: auto;
+}
+.margen{
+  padding: 15px;
+}
+.centrar{
+  text-align: center;
+}
+.fusha{
+  color: var(--colorfusha);
+}
+.margen_iconos{
+  margin-left: 10px;
+}
+.titulos{
+  font-family: var(--tipografiagruesa);
+  font-weight: 700;
+  font-size: 20px;
+}
+.subtitulos{
+  font-family: var(--tipografiagruesa);
+  font-weight: 500;
+  font-size: 20px;
+}
+nav{
+  background-color: var(--colorgris);
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #333;
+  padding: 10px 30px;
+  display: inline-block;
+  border-bottom: 5px var(--colorgris) solid;
+
+}
+nav ul li a:hover{
+  border-bottom: var(--colorfusha) solid;
+}
+.contenedor_informacion figure {
+  max-width: 600px;
+  margin: auto;
+}
+.contenedor_informacion figure img{
+  width: 100%;
+  display: block;
+  border-radius: 15px;
+  border: 10px white solid;
+  box-shadow: 0px 0px 10px #ccc;
+}
+.titulo_fusha{
+  background-color: var(--colorfusha);
+  color: white;
+  text-align: cemter;
+  border-radius: 10px;
+  padding: 10px 50px;
+  margin: auto;
+  max-width: 600px;
+}
+.contenedor_conocimientos{
+  flex-direction: row;
+ justify-content: flex-start;
+ align-items: center;
+}
+.btn_fusha{
+  background-color: var(--colorfusha);
+  padding: 10px 30px;
+  display: inline-block;
+  text-decoration: none;
+  color: white  ;
+  border-radius: 40px;
+}
+.lista_conocimientos{
+  margin-left: 50px;
+}
+
+footer{
+  background-color: var(--colorgrisfuerte);
+  min-height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+footer a{
+  color: white;
+  text-decoration: none;
+}
+footer a i{
+  font-size: 25px;
+}
+
